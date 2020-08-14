@@ -1,0 +1,14 @@
+.logo {
+  width: 120px;
+  height: 31px;
+  background: #ffffff;
+  /*指定上下左右的边距*/
+  margin: 16px 30px 16px 0;
+  /* 向左浮动 */
+  float: left;
+}
+
+.header-menu {
+  /*行高*/
+  line-height: 64px;
+}

@@ -16,10 +16,12 @@ import { WelcomeComponent } from './welcome/welcome.component';
 import { NgZorroAntdModule } from './ng-zorro-antd/ng-zorro-antd.module';
 
 registerLocaleData(en);
-import { from } from 'rxjs';
+import { HeaderComponent } from './layout/header/header.component';
+import { SiderComponent } from './layout/sider/sider.component';
+import { LoginComponent } from './layout/login/login.component';
 
 @NgModule({
-  declarations: [AppComponent, WelcomeComponent],
+  declarations: [AppComponent, WelcomeComponent, HeaderComponent, SiderComponent, LoginComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
@@ -27,7 +29,7 @@ import { from } from 'rxjs';
     FormsModule,
     HttpClientModule,
     BrowserAnimationsModule,
-    NgZorroAntdModule,
+    NgZorroAntdModule
   ],
   providers: [{ provide: NZ_I18N, useValue: en_US }],
   bootstrap: [AppComponent],
