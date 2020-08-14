@@ -1,9 +1,9 @@
 .logo {
   width: 120px;
-  height: 30px;
+  height: 31px;
   background: #ffffff;
   /*指定上下左右的边距*/
-  margin: 0px, 0px, 0px, 0px;
+  margin: 16px 30px 16px 0;
   /* 向左浮动 */
   float: left;
 }
@@ -11,4 +11,23 @@
 .header-menu {
   /*行高*/
   line-height: 64px;
+}
+
+.sider-menu {
+  height: 100%;
+  border-right: 0;
+}
+
+.inner-layout {
+  padding: 0 24px 24px;
+}
+
+nz-breadcrumb {
+  margin: 16px 0;
+}
+
+nz-content {
+  background: #fff;
+  padding: 24px;
+  min-height: 280px;
 }
